@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+#radial {
+  height: 2677px;
+  background-color: #1e1e1e;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(1, 73, 80, 0.126),
+    rgba(16, 17, 17, 0.08)
+  );
+}
+#navlogo {
+  margin-left: 120px;
+}
+.nav {
+  float: right;
+  margin-right: 350px;
+  word-spacing: 34px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+}
+.navs {
+  text-decoration: none;
+  color: #68696e;
+}
+#demo {
+  border-style: solid;
+  color: #68696e;
+  width: 163px;
+  height: 35px;
+  float: right;
+  text-align: center;
+  margin-right: 24px;
+  margin-top: 44px;
+  padding-top: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#buy {
+  background-color: #0ae1f5;
+  width: 132px;
+  height: 35px;
+  margin-right: 106px;
+  margin-top: 44px;
+  float: right;
+  text-align: center;
+  padding-top: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #a2a5a5;
+}
+#VP {
+  align-items: right;
+  margin-right: 211px;
+  margin-left: 211px;
+}
+.sub {
+  margin-left: 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #a2a5a5;
+}
+#ladypro {
+  float: right;
+  margin-right: 129px;
+  margin-top: 0px;
+}
+article > p {
+  color: #0ae1f5;
+  margin-left: 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+#learn {
+  margin-left: 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-style: solid;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  padding-top: 3px;
+  color: green;
+}
+.hyperlink:link {
+  color: hotpink;
+  text-decoration: none;
+}
+.hyperlink:hover {
+  color: orange;
+}
+.hyperlink:active {
+  color: blueviolet;
+}
+.hyperlink:visited {
+  color: green;
+}
+input[type="text"] {
+  width: 386px;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #a2a5a5;
+  border-radius: 10px;
+}
+.enquiry {
+  margin-left: 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="email"] {
+  width: 776px;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #a2a5a5;
+  border-radius: 10px;
+}
+input[type="number"] {
+  width: 448px;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #a2a5a5;
+  border-radius: 10px;
+}
+input[type="date"] {
+  width: 324px;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #a2a5a5;
+  border-radius: 10px;
+}
+input[type="radio"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #a2a5a5;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  width: 776px;
+  background-color: #0ae1f5;
+  color: #000000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  div.hideit {
+    display: none;
+  }
+}
+div.hideit {
+  height: 261px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #161e1f;
+  padding: 20px;
+  color: #a2a5a5;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  color: #a2a5a5;
+}
