@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Vision Pro</title>
+    <link rel="stylesheet" href="styling.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body id="background">
+    <div class="nav">
+      <a href="#home"
+        ><img src="Apple logo.png" alt="logo" width="25" height="30"
+      /></a>
+      <a href="#Store">Store</a>
+      <a href="#Mac">Mac</a>
+      <a href="#iPad">iPad</a>
+      <a href="#iPhone">iPhone</a>
+      <a href="#Watch">Watch</a>
+      <a href="#Vision">Vision</a>
+      <a href="#Airpods">Airpods</a>
+      <a href="#TV">TV</a>
+      <a href="#Entertainment">Entertainment</a>
+      <a href="#Accessories">Accessories</a>
+      <a href="#Support">Support</a>
+      <a class="navs" href="#Search"
+        ><img src="Search icon.png" alt="search" width="20" height="20"
+      /></a>
+      <a class="navs" href="#bag"
+        ><img src="bag icon.png" alt="search" width="20" height="20"
+      /></a>
+    </div>
+    <div class="subnav">
+      <a href="#Features">Features</a>
+      <a href="#Design">Design</a>
+      <a href="#Technology">Technology</a>
+      <a href="#VisionOS">VisionOS</a>
+      <button id="demo">Book a demo</button>
+      <button id="buy">Buy now</button>
+    </div>
+
+    <div class="heading">
+      <h1>Apple Vision Pro</h1>
+    </div>
+    <div>
+      <img
+        src="Apple vision pro.png"
+        width="1400"
+        height="700"
+        class="display"
+      />
+    </div>
+    <div class="orient">
+      <h3 class="orient">-------- Enhance Your Vision</h3>
+    </div>
+    <div class="f1">
+      <img class="image" src="Feature1.png" width="1460" height="800" />
+      <p class="text1">Your apps live in your space</p>
+    </div>
+    <div class="f2">
+      <img class="image" src="Feature2.png" width="1460" height="800" />
+      <p class="text2">An immersive way to experience entertainment</p>
+    </div>
+    <div class="f3">
+      <img class="image" src="Feature3.png" width="1460" height="800" />
+      <p class="text3">Your memories come alive</p>
+    </div>
+    <div class="f4">
+      <img class="image" src="Feature4.png" width="1460" height="800" />
+      <p class="text4">Make meetings more meaningful</p>
+    </div>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 1500,
+        delay: 200,
+      });
+      ScrollReveal().reveal(".text1, .text2, .text3, .text4", {
+        delay: 100,
+        origin: "bottom",
+      });
+      ScrollReveal().reveal(".f1, .f2, .f3, .f4", { delay: 300 });
+    </script>
+    <br />
+    <br />
+    <br />
+    <hr />
+    <br />
+    <div class="footer">
+      <img
+        src="Apple logo.png"
+        alt="logo"
+        width="25"
+        height="30"
+        class="minilogo"
+      />
+    </div>
+  </body>
+</html>
