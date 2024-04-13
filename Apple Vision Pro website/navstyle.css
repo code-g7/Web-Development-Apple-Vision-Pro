@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: customfont;
+  src: url(fonts/SF-Pro.ttf);
+}
+body {
+  font-family: customfont;
+}
+#globalnav {
+  --r-globalnav-flyout-close-delay: 0.12s;
+  --r-globalnav-flyout-link-opacity-duration: 0.5s;
+  --r-globalnav-flyout-spacing: 88px;
+  --r-globalnav-next-flyout-height: 0px;
+  --r-globalnav-previous-flyout-height: 0px;
+  height: 44px;
+  font-size: 17px;
+  background: none;
+  backdrop-filter: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 48px;
+  max-height: 44px;
+  font-size: 17px;
+}
+.globalnav-content {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1024px;
+  padding-top: 0;
+  padding-bottom: 0;
+  --r-globalnav-flyout-rate: 0s;
+  --r-globalnav-duration-medium: 0.24s;
+}
