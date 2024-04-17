@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="demostyle.css" />
+    <script src="demo.js"></script>
+  </head>
+  <body>
+    <!-- <div class="nav-container">
+      <nav>
+        <ul class="desktop-nav">
+          <li>
+            <a href="apple.html" class="link-logo"></a>
+          </li>
+          <li>
+            <a href="#">Store</a>
+          </li>
+          <li>
+            <a href="#">Mac</a>
+          </li>
+          <li>
+            <a href="#">iPad</a>
+          </li>
+          <li>
+            <a href="#">iPhone</a>
+          </li>
+          <li>
+            <a href="#">Watch</a>
+          </li>
+          <li>
+            <a href="index.html">Vision</a>
+          </li>
+          <li>
+            <a href="#">Airpods</a>
+          </li>
+          <li>
+            <a href="#">TV</a>
+          </li>
+          <li>
+            <a href="#">Entertainment</a>
+          </li>
+          <li>
+            <a href="#">Accessories</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+          <li>
+            <a href="#" class="link-search"></a>
+          </li>
+          <li>
+            <a href="#" class="link-bag"></a>
+          </li>
+        </ul>
+      </nav>
+    </div> -->
+    <nav>
+      <i class="ri-apple-fill"></i>
+      <a id="store" href="">Store</a>
+      <a href="">Mac</a>
+      <a href="">iPad</a>
+      <a href="">iPhone</a>
+      <a href="">Watch</a>
+      <a href="">AirPods</a>
+      <a href="">TV & Home</a>
+      <a href="">Entertainment</a>
+      <a href="">Accessories</a>
+      <a href="">Support</a>
+      <i class="ri-search-line"></i>
+      <i class="ri-shopping-bag-line"></i>
+      <i class="ri-menu-3-line"></i>
+    </nav>
+    <div class="respo-nav">
+      <i class="ri-close-fill"></i>
+      <a href="">Store</a>
+      <a href="">Mac</a>
+      <a href="">iPad</a>
+      <a href="">iPhone</a>
+      <a href="">Watch</a>
+      <a href="">AirPods</a>
+      <a href="">TV & Home</a>
+      <a href="">Entertainment</a>
+      <a href="">Accessories</a>
+      <a href="">Support</a>
+    </div>
+    <div class="hero">
+      <img
+        src="https://www.apple.com/retail/instore-shopping-session/static-content/images/session-selection/hero/visionpro_medium.jpg"
+      />
+    </div>
+    <div class="content">
+      <div class="content-column">
+        <h1 class="toph">It's getting real.</h1>
+        <p class="topp">
+          You’re just a few steps away from booking your Apple Vision Pro demo.
+        </p>
+        <div class="expect">
+          <div class="expect-title">
+            <h3 class="title-content">What to expect</h3>
+          </div>
+          <div class="expect-content">
+            <div class="content-1">
+              <figure class="users-icon"></figure>
+              <p>
+                A Specialist will meet with you for a one-on-one demo, which
+                should take about 30 minutes.
+              </p>
+            </div>
+            <div class="content-2">
+              <figure class="smile-icon"></figure>
+              <p>
+                The Specialist will set you up with Apple Vision Pro, making
+                sure everything is personalized to you and your vision needs.
+              </p>
+            </div>
+            <div class="content-3">
+              <figure class="vision-icon"></figure>
+              <p>
+                You’ll get to try Apple Vision Pro for yourself and experience
+                the magic of spatial computing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page2">
+      <div class="text-content">
+        <h1 class="page2-text-title">Requesting a demo</h1>
+        <h3 class="page2-sub">
+          <img src="Apple logo.png" alt="" width="20" height="24" /> &nbsp;
+          Unlock Your Potential with Apple Vision Pro!
+        </h3>
+        <ul>
+          <li>Explore Cutting-Edge Technology</li>
+          <li>Personalized Experience Insights</li>
+          <li>Tailored Solutions Demonstration</li>
+          <li>Immediate Questions Answered</li>
+        </ul>
+      </div>
+
+      <!-- <form action="demoform.php">
+        <div class="input-box">
+          <input type="text" />
+          <label>First name</label>
+        </div>
+        <div class="input-box">
+          <input type="text" />
+          <label>Last name</label>
+        </div>
+        <div class="input-box">
+          <input type="text" />
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="text" />
+          <label>Phone no.</label>
+        </div>
+      </form> -->
+      <form action="demoform.php" method="post">
+        <input
+          type="text"
+          name="Firstname"
+          placeholder="Enter your first name"
+        />
+        <input type="text" name="Lastname" placeholder="Enter your last name" />
+        <br />
+        <input type="email" name="email" placeholder="Enter your email" />
+        <input
+          type="text"
+          name="country code"
+          placeholder="Enter your phone no."
+          id="phno"
+        />
+        <br />
+        <select name="countries" id="countries">
+          <option value="" selected="selected">Select Country</option>
+        </select>
+        <input
+          type="text"
+          name="Location"
+          placeholder="Enter store location"
+          id="location"
+        />
+        <br />
+        <input
+          type="text"
+          name="pincode"
+          placeholder="store pincode"
+          id="pincode"
+        />
+        <input type="date" name="DOB" placeholder="Enter your date of birth" />
+        <input type="time" name="time" placeholder="Time" /><br />
+
+        <br />
+        <input type="submit" value="Book a demo" />
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="footer_wrapper">
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <div class="footer-column-links-title">Shop and Learn</div>
+
+            <a href="#">Mac</a>
+            <a href="">iPad</a>
+            <a href="">iPhone</a>
+            <a href="">Watch</a>
+            <a href="">TV</a>
+            <a href="">Music</a>
+            <a href="">AirPods</a>
+            <a href="">HomePod</a>
+            <a href="">iPod touch</a>
+            <a href="">Accessories</a>
+            <a href="">Gift Card</a>
+          </div>
+
+          <div class="footer-links-column">
+            <div class="footer-column-links-title">Services</div>
+
+            <a href="#">Apple Music</a>
+            <a href="">Apple TV+</a>
+            <a href="">Apple Fitness+</a>
+            <a href="">Apple News+</a>
+            <a href="">Apple Arcade</a>
+            <a href="">iCloud</a>
+            <a href="">Apple One</a>
+            <a href="">Apple Books</a>
+            <a href="">App Store</a>
+
+            <div class="footer-column-links-title">Account</div>
+
+            <a href="#">Apple Your Apple ID</a>
+            <a href="">Apple Store Account</a>
+            <a href="">iCloud.com</a>
+          </div>
+
+          <div class="footer-links-column">
+            <div class="footer-column-links-title">Apple Store</div>
+
+            <a href="#">Find a Store</a>
+            <a href="">Shop Online</a>
+            <a href="">Genius Bar</a>
+            <a href="">Today at Apple</a>
+            <a href="">Apple Camp</a>
+            <a href="">Apple store App</a>
+            <a href="">Refurbished and Clearance</a>
+            <a href="">Apple Trade In</a>
+            <a href="">Order Status</a>
+            <a href="">Shopping Help</a>
+          </div>
+
+          <div class="footer-links-column">
+            <div class="footer-column-links-title">For Business</div>
+
+            <a href="#">Apple and Business</a>
+            <a href="">Shop and Business</a>
+
+            <div class="footer-column-links-title">For Education</div>
+            <a href="">Apple and Education</a>
+            <a href="">Shop for K-12</a>
+            <a href="">Shop College</a>
+
+            <div class="footer-column-links-title">For Healthcare</div>
+            <a href="">Apple in Healthcare</a>
+            <a href="">Health on Apple Watch</a>
+            <a href="">Health Records on iPhone</a>
+
+            <div class="footer-column-links-title">For Government</div>
+            <a href="">Shop for Government</a>
+            <a href="">Shop for Veterans and Military</a>
+          </div>
+
+          <div class="footer-links-column">
+            <div class="footer-column-links-title">Apple Values</div>
+
+            <a href="#">Accessibility</a>
+            <a href="">Education</a>
+            <a href="">Environment</a>
+            <a href="">Inclusion and Diversity</a>
+            <a href="">Privacy</a>
+            <a href="">Supplier Responsibility</a>
+
+            <div class="footer-column-links-title">About Apple</div>
+            <a href="">Newsroom</a>
+            <a href="">Apple Leadership</a>
+            <a href="">Job Opportunities</a>
+            <a href="">Investors</a>
+            <a href="">Events</a>
+            <a href="">Contact Apple</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="demo.js"></script>
+  </body>
+</html>
