@@ -39,6 +39,29 @@ function loco() {
 }
 loco();
 
+var menu = document.querySelector(".ri-menu-3-line");
+var clo = document.querySelector(".ri-close-fill");
+var nav = document.querySelector(".respo-nav");
+
+menu.addEventListener("click", function () {
+  nav.style.top = "0%";
+});
+
+clo.addEventListener("click", function () {
+  nav.style.top = "-120%";
+});
+
+var store = document.querySelector("#store");
+var subMenu = document.querySelector(".submenu");
+
+store.addEventListener("mousemove", function () {
+  subMenu.style.top = "5%";
+});
+
+store.addEventListener("mouseleave", function () {
+  subMenu.style.top = "-100%";
+});
+
 // window.onscroll = function () {
 //   scrollFunction();
 // };
@@ -54,7 +77,8 @@ loco();
 gsap.to("#page>video", {
   scrollTrigger: {
     trigger: `#page>video`,
-    start: `2% top`,
+    start: `2
+    % top`,
     end: `bottom top`,
     scroller: `#main`,
   },
