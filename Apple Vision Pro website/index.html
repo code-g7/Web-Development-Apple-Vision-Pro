@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vision Pro</title>
+    <link rel="icon" href="apple-tab.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -11,7 +16,7 @@
     />
   </head>
   <body>
-    <div class="nav-container">
+    <!-- <div class="nav-container">
       <nav>
         <ul class="desktop-nav">
           <li>
@@ -58,19 +63,58 @@
           </li>
         </ul>
       </nav>
+    </div> -->
+
+    <nav>
+      <i class="ri-apple-fill"></i>
+
+      <a id="store" href="">Store</a>
+      <a href="">Mac</a>
+      <a href="">iPad</a>
+      <a href="">iPhone</a>
+      <a href="">Watch</a>
+      <a href="">AirPods</a>
+      <a href="index.html">Vision</a>
+      <a href="">TV & Home</a>
+      <a href="">Entertainment</a>
+      <a href="">Accessories</a>
+      <a href="Support.html" target="_blank">Support</a>
+      <i class="ri-search-line"></i>
+      <i class="ri-shopping-bag-line"></i>
+      <i class="ri-menu-3-line"></i>
+    </nav>
+    <div class="respo-nav">
+      <i class="ri-close-fill"></i>
+      <a href="">Store</a>
+      <a href="">Mac</a>
+      <a href="">iPad</a>
+      <a href="">iPhone</a>
+      <a href="">Watch</a>
+      <a href="">AirPods</a>
+      <a href="">Vision</a>
+      <a href="">TV & Home</a>
+      <a href="">Entertainment</a>
+      <a href="">Accessories</a>
+      <a href="">Support</a>
     </div>
+
     <div id="subnav">
       <nav>
         <div id="navcontent">
-          <h3>Vision Pro</h3>
-          <h4>Features</h4>
-          <h4>Design</h4>
-          <h4>Technology</h4>
-          <h4>VisionOS</h4>
-          <button>Buy now</button>
-          <button class="demo">Book a demo</button>
+          <a href="index.html"><h3>Vision Pro</h3></a>
+          <a href="#bo" class="subnav_link active"><h4>Features</h4></a>
+          <a href="#" class="subnav_link"><h4>Design</h4></a>
+          <a href="#" class="subnav_link"><h4>Technology</h4></a>
+          <a href="#" class="subnav_link"><h4>VisionOS</h4></a>
+          <a href="#" class="subnav_link"><button>Buy now</button></a>
+          <a href="bookdemo.html" target="_blank"
+            ><button class="demo">Book a demo</button></a
+          >
         </div>
       </nav>
+    </div>
+    <div class="respo-subnav">
+      <h3>Vision Pro</h3>
     </div>
 
     <div id="main">
@@ -79,15 +123,10 @@
           src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/hero/large_2x.mp4"
           muted
         ></video>
-        <!-- <nav>
-          <h3>Vision Pro</h3>
-          <h4>Features</h4>
-          <h4>Design</h4>
-          <h4>Technology</h4>
-          <h4>VisionOS</h4>
-          <button>Buy now</button>
-          <button class="demo">Book a demo</button>
-        </nav> -->
+        <img
+          src="https://www.apple.com/v/apple-vision-pro/c/images/overview/hero/portrait_base__bwsgtdddcl7m_small_2x.jpg"
+          alt=""
+        />
         <div id="page-bottom">
           <h3>Introduction</h3>
           <img
@@ -131,12 +170,14 @@
             alt=""
           />
           <div id="page5-upper-inner">
-            <h3>Watch the film</h3>
-            <h3>Watch the event</h3>
+            <a href="#" class="page5_link"><h3>Watch the film</h3></a>
+            <a href="#" class="page5_link"><h3>Watch the event</h3></a>
           </div>
         </div>
         <img src="apple vision image.jpg" alt="" />
-        <button>+ Take a closer look at Vision Pro</button>
+        <a href="#" class="page5_button"
+          ><button>+ Take a closer look at Vision Pro</button></a
+        >
       </div>
       <div id="page6">
         <div id="center-page6">
@@ -161,7 +202,9 @@
             Safari, create a to-do list in Notes, chat in Messages, and
             seamlessly move between them with a glance.
           </h3>
-          <button>+ Learn more about apps</button>
+          <a href="#" class="page7_button"
+            ><button>+ Learn more about apps</button></a
+          >
         </div>
       </div>
       <div id="page8">
@@ -241,7 +284,9 @@
           src="https://www.apple.com/v/apple-vision-pro/c/images/overview/design/light_seal__fo87cv0zkcmm_large.jpg"
           alt=""
         />
-        <button>+ Learn more about design</button>
+        <a href="#" class="page18_button">
+          <button>+ Learn more about design</button></a
+        >
       </div>
       <div id="page19">
         <h4>Technology</h4>
@@ -292,6 +337,16 @@
           src="https://www.apple.com/v/apple-vision-pro/c/images/overview/technology/features/eye_tracking_on__ln11reqs6mi6_large.jpg"
           alt=""
         />
+        <div class="page21_lower">
+          <h1>Responsive, precision eye tracking.</h1>
+          <p>
+            A high‑performance eye‑tracking system of LEDs and infrared cameras
+            projects invisible light patterns onto each eye. This advanced
+            system provides ultraprecise input without your needing to hold any
+            controllers, so you can accurately select elements just by looking
+            at them.
+          </p>
+        </div>
       </div>
       <div id="page22">
         <img
@@ -304,14 +359,114 @@
           src="https://www.apple.com/v/apple-vision-pro/c/images/overview/technology/features/sensors_all__dp0a8e4y4u4i_large.jpg"
           alt=""
         />
-        <img src="" alt="" />
+        <div class="page22_lower">
+          <h1>A sophisticated sensor array.</h1>
+          <p>
+            A pair of high-resolution cameras transmit over one billion pixels
+            per second to the displays so you can see the world around you
+            clearly. The system also helps deliver precise head and hand
+            tracking and real‑time 3D mapping, all while understanding your hand
+            gestures from a wide range of positions.
+          </p>
+        </div>
       </div>
-      <!-- <div id="page23">
-        <img
-          src="https://www.apple.com/v/apple-vision-pro/c/images/overview/technology/features/sensors_chips__s805s5o3gkii_large.jpg"
-          alt=""
-        />
-      </div> -->
+
+      <footer class="footer">
+        <div class="footer_wrapper">
+          <div class="footer-links">
+            <div class="footer-links-column">
+              <div class="footer-column-links-title">Shop and Learn</div>
+
+              <a href="#">Mac</a>
+              <a href="">iPad</a>
+              <a href="">iPhone</a>
+              <a href="">Watch</a>
+              <a href="">TV</a>
+              <a href="">Music</a>
+              <a href="">AirPods</a>
+              <a href="">HomePod</a>
+              <a href="">iPod touch</a>
+              <a href="">Accessories</a>
+              <a href="">Gift Card</a>
+            </div>
+
+            <div class="footer-links-column">
+              <div class="footer-column-links-title">Services</div>
+
+              <a href="#">Apple Music</a>
+              <a href="">Apple TV+</a>
+              <a href="">Apple Fitness+</a>
+              <a href="">Apple News+</a>
+              <a href="">Apple Arcade</a>
+              <a href="">iCloud</a>
+              <a href="">Apple One</a>
+              <a href="">Apple Books</a>
+              <a href="">App Store</a>
+
+              <div class="footer-column-links-title">Account</div>
+
+              <a href="#">Apple Your Apple ID</a>
+              <a href="">Apple Store Account</a>
+              <a href="">iCloud.com</a>
+            </div>
+
+            <div class="footer-links-column">
+              <div class="footer-column-links-title">Apple Store</div>
+
+              <a href="#">Find a Store</a>
+              <a href="">Shop Online</a>
+              <a href="">Genius Bar</a>
+              <a href="">Today at Apple</a>
+              <a href="">Apple Camp</a>
+              <a href="">Apple store App</a>
+              <a href="">Refurbished and Clearance</a>
+              <a href="">Apple Trade In</a>
+              <a href="">Order Status</a>
+              <a href="">Shopping Help</a>
+            </div>
+
+            <div class="footer-links-column">
+              <div class="footer-column-links-title">For Business</div>
+
+              <a href="#">Apple and Business</a>
+              <a href="">Shop and Business</a>
+
+              <div class="footer-column-links-title">For Education</div>
+              <a href="">Apple and Education</a>
+              <a href="">Shop for K-12</a>
+              <a href="">Shop College</a>
+
+              <div class="footer-column-links-title">For Healthcare</div>
+              <a href="">Apple in Healthcare</a>
+              <a href="">Health on Apple Watch</a>
+              <a href="">Health Records on iPhone</a>
+
+              <div class="footer-column-links-title">For Government</div>
+              <a href="">Shop for Government</a>
+              <a href="">Shop for Veterans and Military</a>
+            </div>
+
+            <div class="footer-links-column">
+              <div class="footer-column-links-title">Apple Values</div>
+
+              <a href="#">Accessibility</a>
+              <a href="">Education</a>
+              <a href="">Environment</a>
+              <a href="">Inclusion and Diversity</a>
+              <a href="">Privacy</a>
+              <a href="">Supplier Responsibility</a>
+
+              <div class="footer-column-links-title">About Apple</div>
+              <a href="">Newsroom</a>
+              <a href="">Apple Leadership</a>
+              <a href="">Job Opportunities</a>
+              <a href="">Investors</a>
+              <a href="">Events</a>
+              <a href="">Contact Apple</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script>
